@@ -1,7 +1,6 @@
 :root {
   --nav-title-font-size: 3rem;
   --nav-title-font-weight: bold;
-  --nav-link-font-weight: lighter;
 }
 
 .header-title {
@@ -23,6 +22,7 @@
   display: flex;
   margin: 0;
   padding: 0;
+  gap: 1.25rem;
 }
 
 .header-nav li {
@@ -32,8 +32,6 @@
 .header-nav li a {
   text-decoration: none;
   color: var(--color-text-light);
-  font-weight: var(--nav-link-font-weight);
-  padding: 1rem;
 }
 
 .header-nav li a:hover,
